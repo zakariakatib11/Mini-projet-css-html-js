@@ -1,0 +1,75 @@
+.logo{
+
+    height: 50px;
+    width: 50px;
+
+}
+#logo-t{
+
+    margin-left: 10px;
+    align-items: center;
+}
+
+#text-nav{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav-content{
+
+    margin-left: 500px;
+
+}
+
+header{
+
+    height: 100px;
+
+}
+
+#container{
+
+    text-align: center;
+    border: solid white 5px;
+    height: 250px;
+    width: 900px;
+    margin-bottom: 20px;
+
+}
+
+#image-id{
+
+    height: 100px;
+    width: 100px;
+   
+    
+
+}
+
+#paragraphe{
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+#cp-r{
+
+    
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    size: 200px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#span-id{
+
+    color: white;
+    font-size: 30px;
+
+}

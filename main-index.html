@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KATIB</title>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="main-index-css.css">
+ 
+<style>
+
+    #jcol{
+        font-size: larger;
+
+    }
+    #put{
+     border: none;
+    }
+</style>
+</head>
+
+
+<header>
+       
+        
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+    <div id="logo-t"><a class="navbar-brand" href="#"><img class="logo" src="giphy.gif" alt="">   </a></div>
+      
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="nav-content">
+        <ul class="navbar-nav mr-auto" >
+          <li class="nav-item">
+              <a class="nav-link" href="second.html" id="text-nav">Home</a>
+            </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="main-index.html" id="text-nav">Course</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html" id="text-nav">About</a>
+            </li>
+         
+         
+        </ul>
+       
+       
+      </div>
+      <br><br><br>
+      
+    </nav>
+
+</header><!--fin header-->
+
+
+
+<body>
+    <div class="container d-flex mt-5">
+        <div class="col-3 me-3" id="c-body">
+          <center>
+          <br><br><br>
+            <input type="text" class="form-control" placeholder="Search" id="place" oninput="search()"><br><br>
+            <h3 id="h">CATEGORY</h3><br>
+            <ul id="text-la">
+              <li>
+                <a href="#" id="link" onclick=" affiche()" >ALL</a>
+             </li>
+              <li>
+                    <a href="#" id="link" onclick="filtjs()">JS</a>
+                </li>
+                <li>
+                    <a href="#" id="link" onclick="filthtml()">HTML</a>
+                </li>
+                <li>
+                    <a href="#" id="link" onclick="filtcss()">CSS</a>
+                </li>
+                <li>
+                    <a href="#" id="link" onclick="filtphp()">PHP</a>
+                </li>
+                
+
+              </ul>
+            <form >
+                <p id="jcol"> <strong style="color: white;">price</strong> </p>
+           
+            
+            <input type="range" class="form-range" id="range-id" min="0" max="300" value="300" oninput="fetch()" >
+            <br>
+            <label  id="price-id" placeholder="price" style="color: white;"  for=""></label>
+            <!--<input type="number" id="price-id" placeholder="price" style="color: white;"  dis>-->
+            <a style="color:white;">$</a>
+            </form>
+            
+        </div>
+      </center>
+      <div class="col-9 d-flex flex-wrap" id="content2" >
+
+      </div>
+    
+    
+
+
+    <footer>
+    <div id="cp-r">ZakariaKatib @copyright 2023</div>
+    </footer>
+
+    <script src="jss2.js"></script>
+
+</body>
+
+</html> 

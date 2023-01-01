@@ -1,0 +1,58 @@
+small{
+  font-size: 80%;
+  font-weight: 400;
+  color: red;
+}
+  
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+  
+*{
+   
+   box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    }
+ .uil-fast-mail{
+
+    size: 50px;
+
+ }
+
+ .form-control{
+
+   border: none;
+    border-bottom: 3px solid rgb(255, 255, 255) ;
+    outline: none;
+    width: 100px;
+    background-color: transparent;
+
+ }
+
+/*  ---------------sign up---------*/
+  h2{
+
+    color: red;
+
+  }
+
+ .error{
+
+   
+   font-size: 15vh;
+   font-family: 'Owswald',sans-serif;
+
+ }
+
+ #button1{
+
+  text-align: center;
+
+ }
+ 
+
+ /*--------------------------*/
+form{
+
+  color: wheat;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
